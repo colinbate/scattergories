@@ -50,6 +50,7 @@ function rollDie() {
 .die {
     position: relative;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .triangle {
   color: #fff;

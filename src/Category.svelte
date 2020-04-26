@@ -37,7 +37,7 @@ button {
 }
 
 ol {
-  padding: 1rem;
+  padding: 0;
   list-style-position: inside;
   width: 100%;
   box-sizing: border-box;

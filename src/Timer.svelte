@@ -61,9 +61,15 @@ function toggle() {
 .timer {
   text-align: center;
   color: #ff3e00;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   font-family: 'Operator Mono', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+}
+
+@media (min-width: 500px) {
+  .timer {
+    font-size: 3rem;
+  }
 }
 
 button {
