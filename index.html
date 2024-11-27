@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scattergories</title>
+    <script>
+			const mode = window.localStorage.getItem('themePreference');
+			if (window &&
+				(mode === 'dark' ||
+				(mode == null && window.matchMedia('(prefers-color-scheme: dark)').matches))) {
+					document.documentElement.classList.add('dark');
+			}
+		</script>
+  </head>
+  <body class="text-gray-800 bg-white dark:text-white dark:bg-gray-800 md:h-[100dvh] md:flex md:items-center md:justify-center">
+    <div id="app" class="w-full lg:max-w-2xl"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script src="https://progress-bright.bate.dev/script.js" data-excluded-domains="localhost" data-site="BAFBATVG" defer></script>
+  </body>
+</html>
